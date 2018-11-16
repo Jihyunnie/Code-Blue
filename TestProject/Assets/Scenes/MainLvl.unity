@@ -38,13 +38,13 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.0050103003, g: 0.004788704, b: 0.005192684, a: 1}
+  m_IndirectSpecularColor: {r: 0, g: 0, b: 0, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 11
-  m_GIWorkflowMode: 0
+  m_GIWorkflowMode: 1
   m_GISettings:
     serializedVersion: 2
     m_BounceScale: 1
@@ -39214,6 +39214,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6f7fd36bc80cdf844a263e792f9c03da, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  myMaterial: {fileID: 2100000, guid: ffd13066f1800e946b7f5c4a0dd582a3, type: 2}
 --- !u!23 &1562881693
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -39790,6 +39791,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6f7fd36bc80cdf844a263e792f9c03da, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  myMaterial: {fileID: 0}
 --- !u!65 &1720157178
 BoxCollider:
   m_ObjectHideFlags: 0
